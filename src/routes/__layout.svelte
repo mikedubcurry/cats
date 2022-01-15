@@ -1,6 +1,6 @@
 <div class="wrapper">
 	<header>
-		<h1>Pet A Cat</h1>
+		<h1><a rel="external" href="/">Pet A Cat</a></h1>
 		<p>A delightful library of cat pictures you can pet!</p>
 		<a href="http://twitter.com/mikedubcurry">@mikedubcurry</a>
 	</header>
@@ -33,9 +33,10 @@
 		height: 38.22%;
 		align-self: center;
 	}
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+	main {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 </style>
